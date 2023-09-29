@@ -1,0 +1,21 @@
+[package]
+name = "n01_hello_world"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#And a link to where you can find the latest version of each dependency.
+
+axum = "0.6.20"
+#https://crates.io/crates/axum
+
+hyper = { version = "0.14.27", features = ["full"] }
+#https://crates.io/crates/hyper
+
+tokio = { version = "1.32.0", features = ["full"] }
+#https://crates.io/crates/tokio
+
+tower = "0.4.13"
+#https://crates.io/crates/tower
